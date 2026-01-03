@@ -102,7 +102,7 @@
 
             <section>
                 <h2 class="text-2xl font-semibold text-white mb-6 flex items-center gap-2">
-                    <i data-lucide="rocket" class="text-purple-400 h-5 w-5"></i> Future Features
+                    <i data-lucide="rocket" class="text-purple-400 h-5 w-5"></i> Features
                 </h2>
                 <div id="features-container" class="space-y-8"></div>
             </section>
@@ -130,20 +130,20 @@
             { name: "Nihat", role: "Front-end", color: "bg-pink-600" },
             { name: "Batuhan", role: "Database", color: "bg-emerald-600" },
             { name: "Burak", role: "General Control", color: "bg-orange-600" },
-            { name: "Onur", role: "Management", color: "bg-red-600" }
+            { name: "Onur", role: "Management", color: "bg-red-600" },
+            { name: "Senanur", role: "Full Stack", color: "bg-red-600"}
         ];
 
         const activeTasks = [
             { title: "Index Page", desc: "Index page design", assignees: ["Ulaş","Barkın"], tag: "Full-Stack", status: "In Progress" },
             { title: "Database Management", desc: "Database creation/management", assignees: ["Batuhan", "Burak"], tag: "Database", status: "In Progress" },
-            { title: "Chat App Full-Stack", desc: "Chat page full-stack", assignees: ["Nihat"], tag: "Full-Stack", status: "In Progress" },
             { title: "Index Management", desc: "Creating/Editing pop-up and boxes in Index page", assignees: ["Amir","Fatah"], tag: "Front-end", status: "In Progress"},
-            { title: "Style of Chat page", desc: "Creating or editing chat page style with React", assignees: ["Nihat"], tag: "Front-end", status: "In Progress"},
             { title: "Non-volatile pages", desc: "Creating/Editing non-volatile pages (Credentials etc.) ", assignees: ["Onur","Burak"], tag: "Full-Stack", status: "In Progress"},
-            { title: "System pages creating front-end", desc: "Settings & Login/out & password change pages style and Front-end", assignees: ["Amir","Fatah"], tag: "Front-end", status: "Pending"},
-            { title: "System pages creating Back-end", desc: "Settings & Login/out & password change Back-end connection between database", assignees: ["Barkın"], tag: "Back-end", status: "Pending"},
+            { title: "System pages creating Full-Stack", desc: "Login/out & password change Ful-Stack", assignees: ["Onur"], tag: "Full-Stack", status: "In Progress"},
+            { title: "System pages creating front-end", desc: "Settings page style and Front-end", assignees: ["Amir","Fatah"], tag: "Front-end", status: "Pending"},
+            { title: "System pages creating Back-end", desc: "Settings Back-end connection between database", assignees: ["Barkın"], tag: "Back-end", status: "Pending"},
             { title: "System pages creating Database", desc: "Settings & Login/out & password change Database layout", assignees: ["Burak", "Batuhan"], tag: "Database", status: "Pending"},
-            { title: "Coming events database table", desc: "Creating table relation with community events", assignees: ["Batuhan"], tag: "Database", status: "Pending"}
+            { title: "Coming events database table", desc: "Creating table relation with community events", assignees: ["Batuhan"], tag: "Database", status: "Pending"},
         ];
 
         const futureFeatures = [
@@ -155,8 +155,8 @@
                 color: "purple",
                 tasks: [
                     { subtask: "Database management", detail: "QR code table management.", assignees: ["Batuhan", "Burak"] },
-                    { subtask: "ID Transfer Logic", detail: "Back-end transfer codes", assignees: ["Rıfat"] },
-                    { subtask: "Frontend UI", detail: "UI style.", assignees: ["Nihat"] }
+                    { subtask: "ID Transfer Logic", detail: "Back-end transfer codes Wait until database done", assignees: ["Senanur"] },
+                    { subtask: "Frontend UI", detail: "UI style. Wait until database done", assignees: ["Senanur"] }
                 ]
             },
             {
@@ -174,7 +174,8 @@
         ];
 
         const doneMilestones = [
-            { title: "Control and Team Assignments", items: ["Assignments Done", "Website in progress"]}
+            { title: "Control and Team Assignments", items: ["Assignments Done", "Website in progress"]},
+            { title: "Chat Page Full Stack by Rıfat", items: ["Chat front-end", "Back-end done"]}
         ];
 
         // --- PARAMETRE TABANLI KONTROL SİSTEMİ (Registry) ---
